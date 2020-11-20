@@ -1,0 +1,499 @@
+/* Extra large devices (large desktops, 1200px and up) */
+
+  
+    .bgOne{
+        background-image: url(/Users/USER/Documents/peddle/image/bgOne.svg);
+        width: 100%;
+        height:240vh;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: initial;
+        background-size:cover ;
+        padding-top: 170px;
+    }
+    .firsttext{
+        color: white;
+        width: 15rem;
+        text-align: center;
+        margin-left: 4rem;
+        text-align: left;
+        animation-name: fadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-direction: alternate;
+    }
+    .headtext{
+        color:whitesmoke;
+        text-shadow: rgb(75, 73, 73);
+        font-size:2rem;
+       
+        margin-left: 3rem;
+        animation-name: fadeOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-direction: alternate;
+    }
+    iframe.gif{
+        margin-left: 2.1rem;
+    }
+
+    div.tutor{
+        width: 18.8rem;
+        background-color: lightgray;
+        height: 30rem;
+        border-radius:0.3rem;
+        margin-left:2.99rem;
+      
+    }
+    div.login{
+        
+        background-color: lightgray;
+        height: 15rem;
+        border-radius: 50%;
+        
+        -moz-border-radius:50%;
+        -webkit-border-radius: 50%;
+        width: 16rem;
+        margin-left: 3.4rem;
+        margin-top: 2rem;
+        
+    }
+    h1.buysell{
+        width:9rem;
+        margin-left:4rem;
+        margin-top:2rem;
+        text-shadow:1px 0px 2px black;
+        animation-name: dropdown;
+        animation-iteration-count: 1;
+        animation-duration: 2s;
+    }
+    .bgTwo{
+        background-color: lightgrey;
+        width: 100%;
+        height:480vh
+    }
+    div.boxx{
+     justify-content: space-evenly;
+    
+    }
+    
+    .card-img-top{
+        height: 8rem;
+    }
+    @keyframes dropdown{
+        0%{
+           margin-top:-15rem;
+        }
+        20%{
+            margin-top:-4rem; 
+        }
+        40%{
+            margin-top:-2rem;
+        }
+        60%{
+            margin-top:0rem;
+        }
+        80%{
+            margin-top:2rem;
+        }
+        100%{
+            margin-top:4rem;
+        } 
+    }
+    
+
+    @keyframes fadeOut{
+        0%{
+            opacity: 0.2;
+            font-size: 0.8rem;
+        }
+        20%{
+            opacity: 0.4;
+            font-size: 0.8rem;
+        }
+        40%{
+            opacity:0.6;
+            font-size: 1rem;
+        }
+        60%{
+            opacity:0.9;
+            font-size: 1rem;
+        }
+        80%{
+            opacity:0.9;
+            font-size: 2rem;
+        }
+        100%{
+            opacity:1;
+            font-size: 2rem;
+        }
+        
+        }
+        
+    
+    
+    
+    @keyframes fadeInOut{
+    0%{
+        opacity: 0.2;
+        font-size: 0.8rem;
+    }
+    20%{
+        opacity: 0.4;
+        font-size: 0.8rem;
+    }
+    40%{
+        opacity:0.6;
+        font-size: 0.8rem;
+    }
+    60%{
+        opacity:0.9;
+        font-size: 1rem;
+    }
+    80%{
+        opacity:0.9;
+        font-size: 1rem;
+    }
+    100%{
+        opacity:1;
+        font-size: 1rem;
+    }
+    
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 360px) {  
+    .bgOne{
+        background-image: url(/Users/USER/Documents/peddle/image/bgOne.svg);
+        width: 100%;
+        height:280vh;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: initial;
+        background-size:cover ;
+        padding-top: 170px;
+    }
+	.firsttext{
+        color: white;
+        width: 15rem;
+        text-align: center;
+        margin-left: 2rem;
+        text-align: left;
+        animation-name: fadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-direction: alternate;
+    }
+    .headtext{
+        color:whitesmoke;
+        text-shadow: white;
+        font-size:2rem;
+        margin-left: 1.5rem;
+        animation-name: fadeOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-direction: alternate;
+    } 
+    iframe.gif{
+        margin-left: 0.8rem;
+    } 
+    div.tutor{
+        width: 17.0rem;
+        background-color: lightgray;
+        height: 30rem;
+        border-radius:0.3rem;
+        margin-left:1.8rem;
+      
+    }
+    div.login{
+        
+        background-color: lightgray;
+        height: 15rem;
+        border-radius: 50%;
+        
+        -moz-border-radius:50%;
+        -webkit-border-radius: 50%;
+        width: 16rem;
+        margin-left: 1.4rem;
+        margin-top: 2rem;
+        
+    }
+    .card{
+        width: 10rem;
+        padding: 2rem;
+    }
+
+    @keyframes fadeOut{
+        0%{
+            opacity: 0.2;
+            font-size: 0.8rem;
+        }
+        20%{
+            opacity: 0.4;
+            font-size: 0.8rem;
+        }
+        40%{
+            opacity:0.6;
+            font-size: 1rem;
+        }
+        60%{
+            opacity:0.9;
+            font-size: 1rem;
+        }
+        80%{
+            opacity:0.9;
+            font-size: 2rem;
+        }
+        100%{
+            opacity:1;
+            font-size: 2rem;
+        }
+        
+        }
+        
+    
+    
+    
+    @keyframes fadeInOut{
+    0%{
+        opacity: 0.2;
+        font-size: 0.8rem;
+    }
+    20%{
+        opacity: 0.4;
+        font-size: 0.8rem;
+    }
+    40%{
+        opacity:0.6;
+        font-size: 0.8rem;
+    }
+    60%{
+        opacity:0.9;
+        font-size: 1rem;
+    }
+    80%{
+        opacity:0.9;
+        font-size: 1rem;
+    }
+    100%{
+        opacity:1;
+        font-size: 1rem;
+    }
+    
+    }
+    
+	
+}
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+	
+	
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) { 
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	
+	
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .navfixed{
+        position: relative;
+        
+
+    }
+  
+    .bgOne{
+        background-image: url(/Users/USER/Documents/peddle/image/bgOne.1.svg);
+        width: 100%;
+        height:150vh;
+        background-repeat:no-repeat;
+       
+        background-size: initial;
+        background-size:cover ;
+        padding-top:200px;
+    }
+    .firsttext{
+        color: white;
+        width: 25rem;
+        margin-left: 3rem;
+        text-align: left;
+        animation-name: fadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-direction: alternate;
+    }
+
+    .headtext{
+        color:whitesmoke;
+        text-shadow: white;
+        font-size:2rem;
+        margin-left: 3rem;
+        animation-name: fadeOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-direction: alternate;
+    }
+    iframe.gif{
+        margin-left: 3rem;
+    }
+    .bgTwo{
+        width: 100%;
+        height:70px;
+    }
+    div.tutor{
+        width: 32rem;
+        background-color: lightgray;
+        height: 15rem;
+        border-radius:0.3rem;
+        
+    }
+    div.login{
+        
+        background-color:lightgray;
+        height: 15rem;
+        border-radius: 50%;
+        
+        -moz-border-radius:50%;
+        -webkit-border-radius: 50%;
+        width: 16rem;
+        margin-left: 0.1rem;
+        margin-top: 0.5rem;
+        
+    }
+    h1.buysell{
+        width:9rem;
+        margin-left:4rem;
+        margin-top:2rem;
+    }
+    .bgTwo{
+        background-color: lightgrey;
+        width: 100%;
+        height:340vh
+    }
+    div.boxx{
+     justify-content: space-evenly;
+     margin-left:1rem;
+    }
+    .card{
+        width: 17rem;
+    }
+    .card-img-top{
+        height: 10rem;
+    }
+    .foot{
+        background-image: url(/Users/USER/Documents/peddle/image/footer1.svg);
+        width: 100%;
+        height:21rem;
+        background-repeat:no-repeat;
+       
+        background-size: initial;
+        background-size:cover ;
+
+    }
+    
+}
+@keyframes fadeOut{
+    0%{
+        opacity: 0.2;
+        font-size: 0.8rem;
+    }
+    20%{
+        opacity: 0.4;
+        font-size: 0.8rem;
+    }
+    40%{
+        opacity:0.6;
+        font-size: 1rem;
+    }
+    60%{
+        opacity:0.9;
+        font-size: 1rem;
+    }
+    80%{
+        opacity:0.9;
+        font-size: 2rem;
+    }
+    100%{
+        opacity:1;
+        font-size: 2rem;
+    }
+    
+    }
+    
+
+
+
+@keyframes fadeInOut{
+0%{
+    opacity: 0.2;
+    font-size: 0.8rem;
+}
+20%{
+    opacity: 0.4;
+    font-size: 0.8rem;
+}
+40%{
+    opacity:0.6;
+    font-size: 0.8rem;
+}
+60%{
+    opacity:0.9;
+    font-size: 1rem;
+}
+80%{
+    opacity:0.9;
+    font-size: 1rem;
+}
+100%{
+    opacity:1;
+    font-size: 1rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
