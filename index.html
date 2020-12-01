@@ -12,17 +12,21 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
  
-<link rel="stylesheet" href="../peddle/css/styleOne.css"/>
+<link rel="stylesheet" href="../ped/css/styleOne.css"/>
+
+<script type="text/javascript" src="../ped/js/index.js">
+
+</script>
 
 
 </head>
 <body>
    
-  
+  <!--nav bar line 21-146-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light navfixed" >
     <a class="navbar-brand" href="#">
       <img
-      src="../peddle/image/logo1.svg"
+      src="../ped/image/logo1.svg"
       width="200"
       height="35"
       classname="d-inline-block align-top"
@@ -40,7 +44,10 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Service</a>
+          <a class="nav-link" href="#">Premium Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ped/dashboard.html">Dashboard</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,7 +56,7 @@
    
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../peddle/indexcategory.html"   >
+            <a class="dropdown-item" href="../ped/indexcategory.html"   >
               <svg width="1em" height="1em"  style="color:orange;" viewBox="0 0 16 16" class="bi bi-laptop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
                 <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
@@ -96,7 +103,7 @@
 
 
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
+            <a class="dropdown-item">
               <svg width="1em" height="1em"  style="color:orange;"
               viewBox="0 0 16 16" class="bi bi-reply-all-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L8.079 4.1A.716.716 0 0 0 7 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z"/>
@@ -114,14 +121,14 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="/" >Guys</a>
-                <a class="dropdown-item" href="/" >Ladies</a>
+                <a class="dropdown-item" href="../ped/indexcategory.html#section8" >Ladies</a>
               </div>
             </a>
           </div>
         </li>
         <li class="nav-item">
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" style="border-radius:10px;"  type="search" placeholder="Search" aria-label="Search">
+            <input class="form-control mr-sm-2" style="border-radius:10px;"  type="search" placeholder="Search For All Campuses" aria-label="Search">
             <button 
             class="btn btn-outline my-2 my-sm-0" 
             type="submit"
@@ -144,14 +151,24 @@
      
     </div>
   </nav>
+  
 
+
+
+
+ <!--A board where registered user will place an advert line 152-157-->
   <div>
     <header style="background-color:lightgrey;position: relative;" role="banner" class="NavMain-Banner-module--cls2--Kiz5E NavMain-Banner-module--cls1--2T6rT text-light justify-content-center navbar navbar-expand navbar-dark">
     
     <iframe src="https://player.vimeo.com/video/60742256" title="video" width="600" height="340" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
   </div> 
 
+
+
+
+  <!--body line 162-330-->
   <div class="bgOne">
+    <!--slideshow that illustrate what peddle is line 164-220-->
     <div id="carouselExampleInterval" class="carousel slide container" data-ride="carousel" style="width:100%;" >
    
       <div class="carousel-inner">
@@ -208,9 +225,13 @@
           </div>
         </div>
       </div>
-    
     </div>
-    <br/><br/><br/>
+   <br/><br/><br/>
+
+
+
+
+    <!--how to sell and buy on peddle line 227-306-->
     <div class="container">
       <div class="row">
         <div class="col-sm-8 tutor">
@@ -223,7 +244,7 @@
                     <h1 class="buysell">How To Sell On 
                     <img
                     style="margin-left:-2rem;"
-                    src="../peddle/image/logo1.svg"
+                    src="../ped/image/logo1.svg"
                     width="200"
                     height="35"
                     classname="d-inline-block align-top"
@@ -234,15 +255,64 @@
                   <div class="col-sm">
                     <br/>
                     <img
-                    src="../peddle/image/illustrator1.svg"
+                    src="../ped/image/illustrator1.svg"
                     width="268"
                     height="170"
                     alt="illustrator"
                     /><br/>
                     <button 
                     class="btn btn-outline my-2 my-sm-0" 
+                    data-toggle="modal" data-target="#sellOnPeddle"
                     style="background-color:rgb(248, 165, 11);color:white;border-radius:10px;box-shadow:8px white;margin-left:6rem;height:2rem;">
                     Read</button>
+
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="sellOnPeddle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                How To Sell On 
+                               <img
+                               style="margin-left:-1.5rem;"
+                               src="../ped/image/logo1.svg"
+                               width="200"
+                               height="35"
+                               classname="d-inline-block align-top"
+                               alt="logo"
+                             />
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <ul>
+                              <li>visit peddle website or it Mobile App.</li>
+                              <li>Register with peddle to be a user.</li>
+                              <li>You can place an advert(short video or pic) of the goods you want to sell.</li>
+                              <li>place and add your goods on peddle.</li>
+                              <li>wait patiently until another user wishes to get your goods.</li><br/>
+                              <p>Thanks
+                                <svg width="1.2em" height="1.2em" style="color: orange;" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                </svg>
+                              </p>
+                            </ul>
+                            
+                          
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" style="background-color: orange;">Sell</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
                   </div>
                 </div>
               </div>
@@ -253,7 +323,7 @@
                       <h1 class="buysell">How To Buy On 
                       <img
                       style="margin-left:-2rem;"
-                      src="../peddle/image/logo1.svg"
+                      src="../ped/image/logo1.svg"
                       width="200"
                       height="35"
                       classname="d-inline-block align-top"
@@ -264,16 +334,59 @@
                     <div class="col-sm">
                       <br/>
                       <img
-                      src="../peddle/image/illustrator2.svg"
+                      src="../ped/image/illustrator2.svg"
                       width="300"
                       height="160"
                       alt="illustrator"
                       /><br/>
                       <button 
                       class="btn btn-outline my-2 my-sm-0" 
-                      type="submit"
+                      data-toggle="modal" data-target="#buyOnPeddle"
                       style="background-color:rgb(248, 165, 11);color:white;border-radius:10px;box-shadow:8px white;margin-left:6rem;height:2rem;margin-top:1.5rem;">
                       Read</button>
+
+                        <!-- Modal -->
+                    <div class="modal fade" id="buyOnPeddle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              How To Buy On 
+                              <img
+                              style="margin-left:-1.5rem;"
+                              src="../ped/image/logo1.svg"
+                              width="200"
+                              height="35"
+                              classname="d-inline-block align-top"
+                              alt="logo"
+                            />
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            
+                            <ul>
+                              <li>visit peddle website or it Mobile App.</li>
+                              <li>Register with peddle to be a user.</li>
+                              <li>check the advert(short video or pic) of the goods posted, you might meet your wish.</li>
+                              <li>click on Buy.</li>
+                              <li>wait patiently for delivery.</li><br/>
+                              <p>Thanks
+                                <svg width="1.2em" height="1.2em" style="color: orange;" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                </svg>
+                              </p>
+                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" style="background-color: orange;">Buy</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     </div>
                  </div>
               </div>
@@ -289,9 +402,11 @@
             </a>
           </div>
           </div>
-
-
         </div>
+
+
+
+        <!--login and registeration line 310-330-->
         <div class="col-sm-3 ">
           <div class="login">
             <center>
@@ -301,21 +416,145 @@
               </svg><br/><br/>
               <button 
               class="btn btn-outline my-2 my-sm-0" 
-              type="submit"
+              data-toggle="modal" data-target="#login"
               style="background-color:black;color:white;border-radius:10px;box-shadow:8px white;margin-left:0.1rem;height:2rem;">
               Login</button>
+
+               <!-- Modal -->
+               <div class="modal fade" id="login" name="log" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Login to
+                       <img
+                       style="margin-left:-1.5rem;"
+                       src="../ped/image/logo1.svg"
+                       width="200"
+                       height="35"
+                       classname="d-inline-block align-top"
+                       alt="logo"
+                     />
+
+
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1" style="float:left;">Email:</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email-address">
+
+                          <label for="exampleFormControlInput1" style="float:left;">Password</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="*******">
+
+                          
+                         
+                        </div>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-secondary"  
+                      style="background-color:rgb(248, 165, 11) ;color:white;">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <button 
               class="btn btn-outline my-2 my-sm-0" 
-              type="submit"
+              data-toggle="modal" data-target="#register"
               style="background-color:black;color:white;border-radius:10px;box-shadow:8px white;margin-left:1rem;height:2rem;">
               Register</button>
+
+               <!-- Modal -->
+               <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      
+                      <h5 class="modal-title" id="exampleModalLabel">
+                       Register with
+                       <img
+                       style="margin-left:-1.5rem;"
+                       src="../ped/image/logo1.svg"
+                       width="200"
+                       height="35"
+                       classname="d-inline-block align-top"
+                       alt="logo"
+                     />
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1" style="float:left;">Register as : </label>
+                            <div class="form-check"  style="float:left;">
+                              <input class="form-check-input"  type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                              <label class="form-check-label" for="exampleRadios1">
+                                Student
+                              </label>
+                            </div><br/>
+                            <div class="form-check"  style="float:left;">
+                              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                              <label class="form-check-label" for="exampleRadios2">
+                                Merchant
+                              </label>
+                            </div><br/><br/>
+                            <center>
+                      
+                              <img id="uploadPreview" style="height:10rem;width: 10rem;border-radius:100px 100px;" src="image/babe.jpg" alt="" class="img"/><br/>
+                              <input type="file"
+                              id="imglink"
+                              name="imglink"
+                              accept=".jpg,.jpeg,.png"
+                              onchange="previewImage()"/>
+                              </center><br/>
+                           
+
+                            
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name"/><br/>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email-address"/><br/>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Phone-N0"/><br/>
+                            <label for="exampleFormControlInput1" style="float:left;">Password:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email-address"/><br/>
+                            <label for="exampleFormControlInput1" style="float:left;">Confirm Password:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email-address"/><br/>
+
+                            
+                           
+                          </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      
+                      <button type="button" class="btn btn-secondary" 
+                      data-toggle="modal" data-target="#login" 
+                      style="background-color:rgb(248, 165, 11) ;color:white;">Register</button>
+                    
+                     
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </center>
           </div>
-
         </div>
       </div>
     </div>
   </div>
+
+  
     
 
   <div class="container-fluid bgTwo">
@@ -324,9 +563,9 @@
     <h2><u style="color:black">Trending Ads On Campuses</u></h2>
     </center><br/>
     <div class="row boxx" >
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product1.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -340,9 +579,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product2.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -355,9 +594,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product3.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -370,9 +609,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product4.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -392,9 +631,9 @@
 
 
     <div class="row boxx" >
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product5.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product5.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -407,9 +646,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product6.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product6.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -422,9 +661,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product7.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product7.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -437,9 +676,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product8.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product8.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -460,9 +699,9 @@
 
 
     <div class="row boxx" >
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product9.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product9.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -475,9 +714,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product10.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product10.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -490,9 +729,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product11.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product11.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -505,9 +744,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product12.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product12.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -529,9 +768,9 @@
 
 
     <div class="row boxx" >
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product13.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product13.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -544,9 +783,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product14.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product14.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -559,9 +798,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product15.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product15.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -574,9 +813,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product16.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product16.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -596,9 +835,9 @@
 
 
     <div class="row boxx" >
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product14.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product14.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -611,9 +850,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product6.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product6.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -626,9 +865,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box" >
+      <div class="col-12 col-sm-3 box" >
         <div class="card" >
-          <img src="../peddle/image/product11.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product11.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -641,9 +880,9 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm box">
+      <div class="col-12 col-sm-3 box">
         <div class="card" >
-          <img src="../peddle/image/product1.jpg" class="card-img-top" alt="...">
+          <img src="../ped/image/product1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
               Card title
@@ -661,7 +900,7 @@
 
 
     <img
-    src="../peddle/image/logo1.svg"
+    src="../ped/image/logo1.svg"
     style="margin-bottom:-10rem;margin-left:2rem;"
     width="180"
     height="60"
@@ -679,9 +918,9 @@
 
 
   </body>
-  <footer class="foot">
+  <footer class="container-fluid foot">
     <div class="row justify-content-between" style="width: 100%;">
-      <div class="col-sm-3" style="margin-left: 6rem;">
+      <div class="col-12 col-sm-3" style="margin-left: 6rem;">
         <div style="color: white;margin-left: 8rem;margin-top:3rem;">
         <h4 style="margin-left:1rem;">Helpful Links</h4>
         <ul>
@@ -697,11 +936,11 @@
           
       
       </div>
-      <div class="col-sm-3">
+      <div class="col-12 col-sm-3">
         <p style="color:white;float: right;width:23rem;font-size: smaller;margin-top:7rem;">
           <img
           style="margin-left:-2rem;"
-          src="../peddle/image/logo1.svg"
+          src="../ped/image/logo1.svg"
           width="200"
           height="35"
           classname="d-inline-block align-top"

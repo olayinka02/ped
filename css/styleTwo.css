@@ -29,7 +29,10 @@
         
     }
     .card{
-        height: 19rem;
+        height: 20rem;
         
+    }
+    .card-img-top{
+        height: 10rem;
     }
 }

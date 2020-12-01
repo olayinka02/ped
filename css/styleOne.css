@@ -2,7 +2,7 @@
 
   
     .bgOne{
-        background-image: url(/Users/USER/Documents/peddle/image/bgOne.svg);
+        background-image: url(../image/bgOne.svg);
         width: 100%;
         height:240vh;
         background-repeat:no-repeat;
@@ -72,16 +72,30 @@
     .bgTwo{
         background-color: lightgrey;
         width: 100%;
-        height:480vh
+        height:980vh
     }
-    div.boxx{
-     justify-content: space-evenly;
     
-    }
     
     .card-img-top{
         height: 8rem;
     }
+    .card{
+        width: 20rem;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .card-img-top{
+        height: 10rem;
+    }
+    .foot{
+      display: none;
+      
+
+    }
+    
+       
+    
+   
     @keyframes dropdown{
         0%{
            margin-top:-15rem;
@@ -177,9 +191,9 @@
 
   
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 360px) {  
+@media (max-width: 380px) {  
     .bgOne{
-        background-image: url(/Users/USER/Documents/peddle/image/bgOne.svg);
+        background-image: url(../image/bgOne.svg);
         width: 100%;
         height:280vh;
         background-repeat:no-repeat;
@@ -238,6 +252,28 @@
     .card{
         width: 10rem;
         padding: 2rem;
+    }
+    .bgTwo{
+        background-color: lightgrey;
+        width: 100%;
+        height:1100vh
+    }
+    
+    
+    .card-img-top{
+        height: 8rem;
+    }
+    .card{
+        width: 20rem;
+        justify-content: center;
+       margin-left: 0.5rem;
+    }
+    .card-img-top{
+        height: 10rem;
+    }
+    .foot{
+      background-color: white;
+      width: 100%;
     }
 
     @keyframes fadeOut{
@@ -337,7 +373,7 @@
     }
   
     .bgOne{
-        background-image: url(/Users/USER/Documents/peddle/image/bgOne.1.svg);
+        background-image: url(../image/bgOne.1.svg);
         width: 100%;
         height:150vh;
         background-repeat:no-repeat;
@@ -407,23 +443,29 @@
         height:340vh
     }
     div.boxx{
-     justify-content: space-evenly;
-     margin-left:1rem;
+    
+     margin-left:-2rem;
     }
     .card{
         width: 17rem;
+        
+          
+        
     }
     .card-img-top{
         height: 10rem;
     }
     .foot{
-        background-image: url(/Users/USER/Documents/peddle/image/footer1.svg);
+        
+        background-image: url(../image/footer1.svg);
         width: 100%;
         height:21rem;
         background-repeat:no-repeat;
        
         background-size: initial;
         background-size:cover ;
+        display: grid;
+      
 
     }
     
