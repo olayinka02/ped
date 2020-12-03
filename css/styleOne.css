@@ -76,14 +76,11 @@
     }
     
     
+    
     .card-img-top{
         height: 8rem;
     }
-    .card{
-        width: 20rem;
-        justify-content: center;
-        margin-left: 2rem;
-    }
+   
     .card-img-top{
         height: 10rem;
     }
@@ -184,7 +181,154 @@
 
 
 
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:320px) { 
 
+    .bgOne{
+        background-image: url(../image/bgOne.svg);
+        width: 100%;
+        height:280vh;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: initial;
+        background-size:cover ;
+        padding-top: 170px;
+    }
+	.firsttext{
+        color: white;
+        width: 15rem;
+        text-align: center;
+        margin-left: 2rem;
+        text-align: left;
+        animation-name: fadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-direction: alternate;
+    }
+    .headtext{
+        color:whitesmoke;
+        text-shadow: white;
+        font-size:2rem;
+        margin-left: 1.5rem;
+        animation-name: fadeOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-direction: alternate;
+    } 
+    iframe.gif{
+        margin-left: 0.8rem;
+    } 
+    div.tutor{
+        width: 17.0rem;
+        background-color: lightgray;
+        height: 30rem;
+        border-radius:0.3rem;
+        margin-left:1.8rem;
+      
+    }
+    div.login{
+        
+        background-color: lightgray;
+        height: 15rem;
+        border-radius: 50%;
+        
+        -moz-border-radius:50%;
+        -webkit-border-radius: 50%;
+        width: 16rem;
+        margin-left: 1.4rem;
+        margin-top: 2rem;
+        
+    }
+    
+    .bgTwo{
+        background-color: lightgrey;
+        width: 100%;
+        height:1100vh
+    }
+    
+    
+    .card-img-top{
+        height: 8rem;
+    }
+    .card{
+        width: 10rem;
+        justify-content: center;
+       margin-left: 0rem;
+       margin-right: 4rem;
+    }
+    .card-img-top{
+        height: 10rem;
+    }
+    .foot{
+      background-color: white;
+      width: 100%;
+    }
+
+    @keyframes fadeOut{
+        0%{
+            opacity: 0.2;
+            font-size: 0.8rem;
+        }
+        20%{
+            opacity: 0.4;
+            font-size: 0.8rem;
+        }
+        40%{
+            opacity:0.6;
+            font-size: 1rem;
+        }
+        60%{
+            opacity:0.9;
+            font-size: 1rem;
+        }
+        80%{
+            opacity:0.9;
+            font-size: 2rem;
+        }
+        100%{
+            opacity:1;
+            font-size: 2rem;
+        }
+        
+        }
+        
+    
+    
+    
+    @keyframes fadeInOut{
+    0%{
+        opacity: 0.2;
+        font-size: 0.8rem;
+    }
+    20%{
+        opacity: 0.4;
+        font-size: 0.8rem;
+    }
+    40%{
+        opacity:0.6;
+        font-size: 0.8rem;
+    }
+    60%{
+        opacity:0.9;
+        font-size: 1rem;
+    }
+    80%{
+        opacity:0.9;
+        font-size: 1rem;
+    }
+    100%{
+        opacity:1;
+        font-size: 1rem;
+    }
+    
+    }
+    
+	
+
+
+} 
 
 
 
@@ -249,10 +393,7 @@
         margin-top: 2rem;
         
     }
-    .card{
-        width: 10rem;
-        padding: 2rem;
-    }
+    
     .bgTwo{
         background-color: lightgrey;
         width: 100%;
@@ -264,9 +405,10 @@
         height: 8rem;
     }
     .card{
-        width: 20rem;
+        width: 17rem;
         justify-content: center;
-       margin-left: 0.5rem;
+       margin-left: 2rem;
+       margin-right: 2rem;
     }
     .card-img-top{
         height: 10rem;
